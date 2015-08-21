@@ -1,0 +1,26 @@
+{
+  "name": "ThirdPod",
+  "version": "0.1.0",
+  "summary": "Creating Pod",
+  "description": "This is for testing pods",
+  "homepage": "https://github.com/BhupeshPruthi",
+  "license": {
+    "type": "MIT",
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "BhupeshPruthi": "bhupesh.pruthi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/myrepo/Podspecs.git",
+    "branch": "ThirdPod",
+    "tag": "2.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "ThirdPod/*.{h,m}",
+  "requires_arc": true,
+  "frameworks": "UIKit",
+  "exclude_files": "main.m"
+}
